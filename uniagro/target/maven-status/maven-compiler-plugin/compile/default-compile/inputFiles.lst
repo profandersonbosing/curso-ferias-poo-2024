@@ -1,0 +1,9 @@
+/Users/andersonbosing/NetBeansProjects/uniagro/src/main/java/br/unipar/uniagro/exceptions/BusinessException.java
+/Users/andersonbosing/NetBeansProjects/uniagro/src/main/java/br/unipar/uniagro/services/ProdutoService.java
+/Users/andersonbosing/NetBeansProjects/uniagro/src/main/java/br/unipar/uniagro/domain/BaseEntity.java
+/Users/andersonbosing/NetBeansProjects/uniagro/src/main/java/br/unipar/uniagro/enums/StatusProdutoEnum.java
+/Users/andersonbosing/NetBeansProjects/uniagro/src/main/java/br/unipar/uniagro/Uniagro.java
+/Users/andersonbosing/NetBeansProjects/uniagro/src/main/java/br/unipar/uniagro/enums/ClasseProdutoEnum.java
+/Users/andersonbosing/NetBeansProjects/uniagro/src/main/java/br/unipar/uniagro/domain/Marca.java
+/Users/andersonbosing/NetBeansProjects/uniagro/src/main/java/br/unipar/uniagro/services/MarcaService.java
+/Users/andersonbosing/NetBeansProjects/uniagro/src/main/java/br/unipar/uniagro/domain/Produto.java
