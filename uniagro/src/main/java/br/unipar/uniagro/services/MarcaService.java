@@ -2,6 +2,8 @@ package br.unipar.uniagro.services;
 
 import br.unipar.uniagro.domain.Marca;
 import br.unipar.uniagro.exceptions.BusinessException;
+import br.unipar.uniagro.repositories.MarcaRepository;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Date;
 
@@ -19,7 +21,7 @@ public class MarcaService {
         marca.setDtInsercao(new Date());
         marca.setDtAtualizacao(new Date());
         
-        //chamar o repo
+        new MarcaRepository().insert(marca);
         
         return marca;
     }
@@ -31,28 +33,23 @@ public class MarcaService {
         
         marca.setDtAtualizacao(new Date());
         
-        //chamar o repo
+        new MarcaRepository().update(marca);
         
         return marca;
     }
     
     public void deleteById(Integer id) throws Exception {
         validateId(id);
-        
-        //chamar o repo
+        new MarcaRepository().delete(id);
     }
     
-    public ArrayList<Marca> findAll(){
-        //chamar o repo
-        
-        return new ArrayList<>();
+    public ArrayList<Marca> findAll() throws SQLException{
+        return new MarcaRepository().findAll();
     }
     
     public Marca findById(Integer id) throws Exception {
         validateId(id);
-        //chamar o repo
-        
-        return new Marca();
+        return new MarcaRepository().findById(id);
     }
     
     private void validate(Marca marca) throws BusinessException {

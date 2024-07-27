@@ -3,7 +3,9 @@ br/unipar/uniagro/domain/Marca.class
 br/unipar/uniagro/enums/ClasseProdutoEnum.class
 br/unipar/uniagro/services/MarcaService.class
 br/unipar/uniagro/Uniagro.class
+br/unipar/uniagro/repositories/MarcaRepository.class
 br/unipar/uniagro/domain/BaseEntity.class
+br/unipar/uniagro/infraestructure/DatabaseConnection.class
 br/unipar/uniagro/exceptions/BusinessException.class
 br/unipar/uniagro/enums/StatusProdutoEnum.class
 br/unipar/uniagro/services/ProdutoService.class

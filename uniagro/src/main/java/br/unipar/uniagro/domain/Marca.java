@@ -19,5 +19,9 @@ public class Marca extends BaseEntity {
     public void setNome(String nome) {
         this.nome = nome;
     }
-    
+
+    @Override
+    public String toString() {
+        return "Marca{" + "nome=" + nome + '}' + super.toString();
+    }
 }

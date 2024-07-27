@@ -39,4 +39,9 @@ public abstract class BaseEntity {
     public void setDtAtualizacao(Date dtAtualizacao) {
         this.dtAtualizacao = dtAtualizacao;
     }
+
+    @Override
+    public String toString() {
+        return "BaseEntity{" + "id=" + id + ", dtInsercao=" + dtInsercao + ", dtAtualizacao=" + dtAtualizacao + '}';
+    }
 }
