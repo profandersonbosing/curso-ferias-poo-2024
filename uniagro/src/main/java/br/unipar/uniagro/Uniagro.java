@@ -19,13 +19,13 @@ public class Uniagro {
             RQF.002 - MANTER UM PRODUTO
             RQF.003 - MANTER LOTES DO PRODUTOS(Produto, Dt Fabric.,
             Dt. Validade,
-            Numero do Lote(AZ-O1JAJ2,
+            Numero do Lote(AZ-O1JAJ2),
             Quantidade,
-            Observacao))
+            Observacao)
             RQF.004 - MANTER CLIENTE(Nome, Cpf, Endereco, Telefone)
             RQF.005 - MANTER FORMAS DE PAGAMENTO(Id, Nome)
         
-            RQF.006 - REALIZAR VENDA
+            RQF.006 - REALIZAR VENDA - Não precisa para o trabalho
             */
             
             Marca marca = new Marca();
